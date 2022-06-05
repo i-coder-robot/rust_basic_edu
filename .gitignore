@@ -10,3 +10,6 @@ Cargo.lock
 **/*.rs.bk
 03_hello_rust/hello
 rust_basic_edu.code-workspace
+06_float/main
+05_int/main
+04_data_type/main
