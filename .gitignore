@@ -13,3 +13,5 @@ rust_basic_edu.code-workspace
 06_float/main
 05_int/main
 04_data_type/main
+/bool07/target/
+/.idea/
