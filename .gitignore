@@ -22,3 +22,7 @@ rust_basic_edu.code-workspace
 /condition_11/target/
 /loop_12/target/
 /function_13/target/
+/tuple_14/target/
+/array_15/target/
+/ownership_move_16/target/
+/borrow_17/target/

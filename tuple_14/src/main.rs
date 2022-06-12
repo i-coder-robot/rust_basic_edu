@@ -15,6 +15,11 @@ fn main() {
     println!("{}",book);
     println!("{}",target);
 
+    let arr1:[&str;3]=["Go语言极简一本通","Go语言微服务架构核心22讲","从0到Go语言微服务架构师"];
+    for item in arr1{
+        print!("充电科目 :{}\n",item);
+    }
+
 }
 fn show_tuple(t:(&str,&str)){
     println!("{:?}",t);
