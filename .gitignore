@@ -37,3 +37,6 @@ rust_basic_edu.code-workspace
 /iterator_25/target/
 /thread_27/target/
 /error_28/target/
+/module_30/target/
+/smart_pointer_29/target/
+/module_30/mylib/target/
