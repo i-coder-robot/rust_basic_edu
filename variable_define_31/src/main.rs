@@ -32,14 +32,10 @@ fn main() {
     spend3=1;
     println!("another binding spend3:{}",spend3);
 
-    let mut spend = 1;
-    {
-        //被不可变的spend遮蔽
-        let spend = spend;
-        //Cannot assign twice to immutable variable [E0384]
-        //spend在本作用域被冻结
-        // spend=50;
-    }
-    //spend离开作用域
-    spend=3;
+    //冻结 资源存在使用的引用时，在当前作用域中这一资源是不可被修改的。
+    let mut spend4 = Box::new(1);
+    let spend5 = &spend4;
+    spend4 = Box::new(100);
+    println!("{}",spend4);
+    println!("{}",spend5);
 }
