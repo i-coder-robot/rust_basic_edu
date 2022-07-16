@@ -2,7 +2,8 @@
 
 [文字版地址](http://www.go-edu.cn/categories/Rust%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/)
 
-#【2022】最新最全Rust编程语言入门教程
+#【2022】最新最全Rust编程语言入门教程,视频版如下:
+
 [为什么要使用Rust语言](https://www.bilibili.com/video/BV16B4y1q7Sq)
 
 [Rust环境搭建](https://www.bilibili.com/video/BV16B4y1q7Sq?p=2)
